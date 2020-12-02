@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6f2b5fe7-8a3e-45ec-81e1-ed1ccf221961" ItemType="BusinessFlow" CreatedBy="innominds" Created="202012020642" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="innominds" LastUpdate="202012020645" />
+<BusinessFlow Elapsed="4199" Guid="6f2b5fe7-8a3e-45ec-81e1-ed1ccf221961" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="239e87ae-e4e6-4211-9949-faec46d04b5e" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="50%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Browser Action" Guid="a2705d1f-5865-49a5-9861-f1cb5172827c" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="d7af2523-e21b-4bd9-a220-ea86570b9ebd" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="90e7ffa7-3397-4f9d-a15a-ba17016e5a9c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://www.google.com" />
+<ActInputValue Guid="765d71fe-b55d-495f-a05d-6b11ba09e977" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1c556dc1-ab66-4d60-b329-c06c99bf50f0" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="fde2d638-477d-4733-afb8-742028e8581b" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="538e6264-256c-4c71-840d-72a95eece497" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="968e7ea3-0386-4599-a2aa-9b84116bfaa6" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActBrowserElement Description="Browser Action" Guid="98a5ae5d-d02f-4f8b-9ebf-e6cc1e2bfe0b" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c4a2da26-2b10-415f-9145-070376fbc28d" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="65306d3c-2a79-465f-90d9-cda07bcd6784" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="cbd89df7-d609-46b2-a62c-ccb60ceda1e9" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="54e5c902-c28f-4898-9ed8-c115b046abbf" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="f86bca43-acc5-439d-a465-1e8955c6e507" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="239e87ae-e4e6-4211-9949-faec46d04b5e" ActivityName="Activity 1" Guid="e8008437-5bc7-41a4-9111-cc6b54dc0141" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="eace191f-01bf-4a87-ab07-9317b193e26e" LastExecutingAgentName="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
