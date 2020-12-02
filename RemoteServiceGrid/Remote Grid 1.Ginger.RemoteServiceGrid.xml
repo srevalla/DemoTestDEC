@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="163f113d-1f38-4c5a-90ae-21530b138e61" ItemType="RemoteServiceGrid" CreatedBy="innominds" Created="202012021441" GingerVersion="3.6.0.0" Version="1" LastUpdateBy="innominds" LastUpdate="202012021441" />
+<RemoteServiceGrid Active="True" Guid="163f113d-1f38-4c5a-90ae-21530b138e61" Host="192.168.204.108" HostPort="15555" Name="Remote Grid 1" ParentGuid="00000000-0000-0000-0000-000000000000" /></GingerRepositoryItem>
