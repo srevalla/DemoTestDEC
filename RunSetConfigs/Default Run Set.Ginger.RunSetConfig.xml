@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4daf6852-125f-4a54-bc9e-77011974fcf7" ItemType="RunSetConfig" CreatedBy="innominds" Created="202012020700" GingerVersion="3.6.0.0" Version="1" LastUpdateBy="innominds" LastUpdate="202012020700" />
+<RunSetConfig Guid="4daf6852-125f-4a54-bc9e-77011974fcf7" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="2da28562-8538-487c-9a8b-2da6de03f757" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" />
+</GingerRunners>
+</RunSetConfig></GingerRepositoryItem>
